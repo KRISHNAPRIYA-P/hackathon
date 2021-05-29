@@ -26,3 +26,21 @@ nav a{
   display: inline-block;
   background: #ffffff;
 }
+.half{
+  width: 45%;
+  margin-right: 2%;
+  display: inline-block;
+  float: left;
+}
+
+
+img{
+  width:125px;
+  margin-right: 2%;
+  display: inline-block;
+  float: left;
+}
+h2{ 
+  color:#666666;
+  background-color: #87cefa;
+}
