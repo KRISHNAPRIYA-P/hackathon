@@ -11,9 +11,6 @@ header{
   background: #666666;
   background:-webkit-linear-gradient(#666666 0%, #87cefa 100%)
 }
-footer{
-  background:#87cefa;
-}
 
 nav{
   font-variant: small-caps;
@@ -34,12 +31,12 @@ nav a{
 }
 
 
-img{
+/*img{
   width:125px;
   margin-right: 2%;
   display: inline-block;
   float: left;
-}
+}*/
 h2{ 
   color:#666666;
   background-color: #87cefa;
