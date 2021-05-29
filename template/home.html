@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <title>AgVenture</title>
+      
+      <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
+</head>
+<body>
+      <header>
+    <h1>AgVenture</h1>
+<!--             <nav>
+                  <a href = "">Home</a>
+                  <a href = "">Weather</a>
+                  <a href = "">Gov schemes</a>
+                  <a href = "">Help</a>
+            </nav> -->
+      </header>
+
+    
+      <section class="half">
+            <h2>About us</h2>
+            <p>Black pepper is cultivated mostly by small and marginal holders and their livelihood has crucial bearing on this crop. Idukki and Wayanad are the two major pepper producer districts in Kerala. In 2008- 09 Kerala became the largest pepper producer state with over 41,000 tonnes on 1.75 lakh hectares.</p>
+      </section>
+      <section class="half">
+            <form class="text3" action='/upload_file' method = "post" enctype="multipart/form-data">
+                  <h2>Upload image</h2>
+                  <input name ='file' type="file" alt="upload image">
+                  <input class='input2' type="submit">
+            </form>
+      </section>     
+</body>            
+</html>
